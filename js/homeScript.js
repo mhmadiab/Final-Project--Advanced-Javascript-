@@ -15,7 +15,7 @@ let lastPage = 1
   setUpNavBar()
 
   function userClicked(id){
-    window.location.href = `http://127.0.0.1:5500/Final-Project/Profile.html?userId=${id}`
+    window.location.href = `/Profile.html?userId=${id}`
   }
 
   function getPosts(page = 1, reload = true){
@@ -80,7 +80,7 @@ let lastPage = 1
     }
 
   function getPostWithId(postId){
-      window.location.href = `http://127.0.0.1:5500/Final-Project/postDetails.html?postId=${postId}`
+      window.location.href = `/postDetails.html?postId=${postId}`
     }
   
 

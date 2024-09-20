@@ -283,7 +283,7 @@ function createPost(){
 function profileLink(){
     const user =  getCurrentUser()
     const userId = user.id
-    document.getElementById("profile-link").href = `http://127.0.0.1:5500/Final-Project/Profile.html?userId=${userId}`
+    document.getElementById("profile-link").href = `/Profile.html?userId=${userId}`
   }
 
 
